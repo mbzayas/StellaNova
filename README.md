@@ -1,2 +1,2 @@
 # StellaNova
-Projectio NSAC 2019
+Projecto NSAC 2019
