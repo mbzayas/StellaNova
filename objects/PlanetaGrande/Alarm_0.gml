@@ -1,0 +1,11 @@
+cx = room_width/2;
+cy = room_height/2;
+r = 400;
+theta =0;
+theta_speed = 2;
+theta += theta_speed;
+theta*=room_speed;
+if (theta >= 360) theta -= 360;
+x = cx + lengthdir_x(r, theta);
+y = cy + lengthdir_y(r, theta);
+position_change(x,y,Dibujar,true);
